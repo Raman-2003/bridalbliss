@@ -1,0 +1,553 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    
+}
+
+body{
+    overflow-x: hidden;
+}
+
+
+#desktop{
+    position: relative;
+    width: 100%;
+    height: 250px;
+    background-color: gold;
+}
+
+#bb{
+    position: absolute;
+    left: 350px;
+    top: 20px;
+    color: #034159;
+    font-size: 100px;
+    font-family: 'Stardos Stencil', system-ui;
+
+}
+
+#eplan{
+    position: absolute;
+    left: 480px;
+    color: #034159;
+    top: 130px;
+     font-size: 60px;
+    font-family: 'Sevillana', cursive;
+
+}
+.one{
+    position: absolute;
+    top: 248px;
+    cursor: pointer;
+    z-index: 10;
+    left: 50px;
+    background-color: palevioletred;
+    width: 250px;
+    height: 50px;
+    border-bottom-left-radius: 5px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.two{
+    position: absolute;
+    top: 248px;
+    cursor: pointer;
+    z-index: 10;
+    left: 350px;
+    background-color: grey;
+    border-bottom-left-radius: 5px;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.three{
+    position: absolute;
+    top: 248px;
+    cursor: pointer;
+    z-index: 10;
+    left: 550px;
+    background-color: palevioletred;
+    border-bottom-left-radius: 5px;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.four{
+    position: absolute;
+    top: 248px;
+    z-index: 10;
+    left: 750px;
+    cursor: pointer;
+    background-color: grey;
+    border-bottom-left-radius: 5px;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.five{
+    position: absolute;
+    top: 248px;
+    z-index: 10;
+    left: 950px;
+    cursor: pointer;
+    background-color: palevioletred;
+    border-bottom-left-radius: 5px;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.six{
+    position: absolute;
+    top: 248px;
+    z-index: 10;
+    cursor: pointer;
+    left: 1150px;
+    background-color: grey;
+    border-bottom-left-radius: 5px;
+    width: 180px;
+    height: 50px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#fullimage{
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background-color: white;
+    top: -2px;
+}
+
+.bigfitimg{
+    width: 100%;
+    height: 800px;
+}
+
+#Featured{
+    position: relative;
+    top: 300px;
+    cursor:default;
+    width: 100%;
+    height: 250px;
+    background-color: #485271;
+}
+
+.featbrands{
+    position: absolute;
+    left: 530px;
+    top: 30px;
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 40px;
+    
+}
+
+.brides{
+    position: absolute;
+    top: 110px;
+    left: 100px;
+    color: #F29F05;
+     cursor: pointer;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.knot{
+    position: absolute;
+    left: 300px;
+    cursor: pointer;
+    font-size: 40px;
+    top: 100px;
+    color: #F29F05;
+    font-family: 'Dancing Script', cursive;
+}
+
+.glamour{
+    position: absolute;
+    left: 490px;
+    color: #F29F05;
+    top: 105px;
+    cursor: pointer;
+    font-size: 33px;
+    font-family: 'Anton', sans-serif;
+}
+
+.weds{
+    position: absolute;
+    font-size: 42px;
+    cursor: pointer;
+    top: 95px;
+    color: #F29F05;
+    left: 670px;
+    font-family: 'Diphylleia', serif;
+}
+
+
+.style{
+    position: absolute;
+    left: 910px;
+    cursor: pointer;
+    font-size: 25px;
+    top: 115px;
+    color: #F29F05;
+    font-family: 'Cute Font', sans-serif;
+}
+
+.pretty{
+    position: absolute;
+    left: 975px;
+    font-size: 45px;
+    cursor: pointer;
+    top: 100px;
+    color:#F29F05 ;
+    font-family: 'Sacramento', cursive;
+}
+
+.cosmo{
+    position: absolute;
+    left: 1125px;
+    top: 110px;
+    color: #F29F05;
+    cursor: pointer;
+    font-size: 30px;
+    letter-spacing: -4px;
+    font-family: 'Cinzel', serif;
+}
+
+#kisspage{
+    position: relative;
+    height: 1000px;
+    width: 100%;
+    /* background-color: rgb(212, 238, 166); */
+    top: 270px;
+}
+
+.extraevent{
+    z-index: 10;
+    position: absolute;
+    top: 130px;
+    left: 90px;
+    font-family: 'Barlow', sans-serif;
+    font-size: 35px;
+}
+
+.flaw{
+    z-index: 10;
+    position: absolute;
+    top: 180px;
+    left: 150px;
+    font-size: 45px;
+    font-weight: lighter;
+    font-family: 'Sacramento', cursive;    
+}
+
+.cake{
+    position: absolute;
+    width: 320px;
+    height: 430px;
+    top: 240px;
+    left: 630px;
+    z-index: 10;
+}
+
+.couplefirst{
+    position: absolute;
+    width: 300px;
+    height: 450px;
+    top: 40px;
+    left: 990px;
+    z-index: 10; 
+}
+
+.bridalpara{
+    position: absolute;
+    top: 260px;
+    left: 40px;
+    font-size: 23px;
+    color:black;
+    z-index: 10;
+    font-family: 'Diphylleia', serif;
+    font-weight: bolder;
+    text-align: justify;
+}
+
+.tree{
+    position: absolute;
+    width: 100%;
+}
+
+.serivebtn{
+    position: absolute;
+    top: 550px;
+    left: 100px;
+    background-color: gold;
+    width: 270px;
+    cursor: pointer;
+    border: 3px solid white;
+    height: 50px;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 8px;
+}
+
+#portland{
+    position: relative;
+    width: 100%;
+    height: 940px;
+    background-color: rgb(205, 224, 169);
+}
+
+.SEATTLE{
+    z-index: 10;
+    position: absolute;
+    top: 500px;
+    right: 100px;
+    font-family: 'Barlow', sans-serif;
+
+}
+
+.and{
+    z-index: 10;
+    position: absolute;
+    top: 500px;
+    right: 20px;
+    font-family: 'Barlow', sans-serif;
+    
+}
+
+.ww{
+    z-index: 10;
+    position: absolute;
+    top: 560px;
+    right: 250px;
+    font-size: 50px;
+    font-family: 'Sacramento', cursive;   
+}
+
+.chair{
+    position: absolute;
+    width: 350px;
+    height: 400px;
+    top: 80px;
+    left: 100px;
+}
+
+.she{
+    position: absolute;
+    width: 330px;
+    height: 500px;
+    top: 180px;
+    left: 440px;
+}
+
+.truck{
+    position: absolute;
+    width: 330px;
+    height: 400px;
+    top: 510px;
+    left: 120px;
+
+}
+
+#paraa{
+    z-index: 10;
+    position: absolute;
+    left: 850px;
+    font-family: 'Diphylleia', serif;   
+     font-size: 22px;   
+    top: 640px;
+    line-height: 50px;
+    font-weight: bolder;
+    text-align: justify;
+}
+
+.dance{
+    position: absolute;
+    left: 800px;
+    top: 20px;
+    width: 600px;
+}
+
+.mail{
+    position: absolute;
+    top: 700px;
+    cursor: pointer;
+    left: 470px;
+    font-family: 'Cinzel', serif;
+}
+
+#latest{
+    position: relative;
+    width: 100%;
+    height: 600px;
+
+}
+
+.see{
+    position: absolute;
+    top: 29px;
+    font-size: 30px;
+    font-weight: lighter;
+     left: 570px;
+    font-family: 'Anton', sans-serif;    
+}
+
+.event{
+    position: absolute;
+    left: 680px;
+    top: 10px;
+    font-size: 60px;
+    font-family: 'Sacramento', cursive; 
+}
+
+.star{
+    z-index: 10;
+    position: absolute;
+    left: 330px;
+    top: 90px;
+
+}
+
+.ellie{
+    position: absolute;
+    top: 300px;
+    z-index: 10;
+    left: 110px;
+    font-family: 'Cinzel', serif;
+    letter-spacing: -3px;
+}
+
+.spot{
+    position: absolute;
+    top: 370px;
+    z-index: 10;
+    left: 110px;
+    font-weight: bolder;
+    font-family: 'Cinzel', serif;
+    letter-spacing: -1px;
+}
+
+.mark{
+    position: absolute;
+    top: 430px;
+    z-index: 10;
+    left: 110px;
+    font-weight: bolder;
+    font-family: 'Cinzel', serif;
+    letter-spacing: -1px;
+}
+
+.payton{
+    position: absolute;
+    top: 490px;
+    z-index: 10;
+    left: 110px;
+    font-weight: bolder;
+    font-family: 'Cinzel', serif;
+    letter-spacing: -2px;
+}
+
+.phoebe{
+    position: absolute;
+    top: 550px;
+    z-index: 10;
+    left: 110px;
+    font-weight: bolder;
+    font-family: 'Cinzel', serif;
+    letter-spacing: -1px;
+}
+
+#final{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    bottom: 185px;
+}
+
+.us{
+    position: absolute;
+    top: 660px;
+    left: 40px;
+    font-family: 'Libre Baskerville', serif;  
+    background-color: #F29F05;
+    width: 270px;
+    cursor: pointer;
+    text-align: center;
+    padding-left: 3px;
+    border-radius: 8px;
+    opacity: 0.8;
+}
+
+.icon{
+    position: absolute;
+    top: 400px;
+    left: 30px;
+}
+
+.fb{
+    position: absolute;
+    left: 50px;
+    top: 710px;
+    width: 50px;
+    z-index: 10;
+}
+
+.ll{
+    position: absolute;
+    z-index: 10;
+    cursor: pointer;
+    top: 920px;
+    text-align: center;
+    left: 130px;
+    font-size:xx-large;
+}
+.us:hover{
+    color: white;
+}
+.twit{
+    position: absolute;
+    left: 120px;
+    top: 710px;
+    cursor: pointer;
+    width: 50px;
+    z-index: 10;
+}
+
+.insta{
+    position: absolute;
+    left: 190px;
+    cursor: pointer;
+    top: 710px;
+    width: 50px;
+    z-index: 10;
+}
+
+
+.whats{
+    position: absolute;
+    left: 260px;
+    cursor: pointer;
+    top: 710px;
+    width: 50px;
+    z-index: 10;
+}
+
+.rights{
+    position: absolute;
+    right: 20px;
+    top: 480px;
+    cursor: pointer;
+    font-size: x-large;
+    z-index: 10;
+}
+
